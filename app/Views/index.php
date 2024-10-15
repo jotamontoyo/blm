@@ -88,7 +88,7 @@
 
 
     <div class="row">
-      <h1 class="centrado display-4 titulo-index"><b>GIMNASIO BLUME III<img class="img_logo_rotulos" src="public/img/logos/logo-blm.png" alt=""></b></h1>
+      <h1 class="centrado display-4 titulo-index"><b>GIMNASIO BLUME<img class="img_logo_rotulos" src="public/img/logos/logo-blm.png" alt=""></b></h1>
     </div>
 
 
