@@ -74,7 +74,7 @@
 
 
   <div class="row rotulo-login">
-    <h1 class="centrado display-4"><a href="<?= base_url(); ?>"><b>Gimnasio Blume <img class="img_logo_rotulos" src="public/img/logos/logoPLN.jpg" alt=""></b></a></h1>
+    <h1 class="centrado display-4"><a href="<?= base_url(); ?>"><b>Gimnasio Blume <img class="img_logo_rotulos" src="public/img/logos/logo-blm.png" alt=""></b></a></h1>
   </div>
 
 

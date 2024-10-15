@@ -283,6 +283,37 @@ class Home extends BaseController
 
 
 
+    /**
+     * Return an array of resource objects, themselves in array format.
+     *
+     * @return ResponseInterface
+     */
+    public function horario_blume()
+    {
+        $data = [
+            'titulo'        => 'Horarios'
+        ];
+        return view('horarios/blume', $data);
+    }
+
+
+
+
+
+    /**
+     * Return an array of resource objects, themselves in array format.
+     *
+     * @return ResponseInterface
+     */
+    public function horario_box()
+    {
+        $data = [
+            'titulo'        => 'Horarios'
+        ];
+        return view('horarios/box', $data);
+    }
+
+
 
 
 

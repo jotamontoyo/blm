@@ -1,21 +1,16 @@
 <div class="botones_menu">
     <a class="btn btn-primary sombra" data-bs-toggle="dropdown" aria-expanded="false">
-      Instructivos
+      Horarios
     </a>
     <li class="nav-item" id="dropdown">
       <ul class="dropdown-menu">
-        <li> <a class="dropdown-item" style="background-color: white;"> Con cédula &raquo; </a>
-          <ul class="submenu dropdown-menu">
-            <li><a class="dropdown-item" href="<?= base_url()?>instrucciones/con-cedula-movil"><i class="bi bi-phone"></i> Móvil</a></li>
-            <li><a class="dropdown-item" href="<?= base_url()?>instrucciones/con-cedula-computadora"><i class="bi bi-pc-display-horizontal"></i> Computadora</a></li>
-          </ul>
+        <li> <a class="dropdown-item" href="<?= base_url()?>horarios/blume" style="background-color: white;"> Blume</a>
+          
         </li>
-        <li> <a class="dropdown-item" style="background-color: white;"> Sin cédula &raquo; </a>
-          <ul class="submenu dropdown-menu">
-            <li><a class="dropdown-item" href="<?= base_url()?>instrucciones/sin-cedula-movil"><i class="bi bi-phone"></i> Móvil</a></li>
-            <li><a class="dropdown-item" href="<?= base_url()?>instrucciones/sin-cedula-computadora"><i class="bi bi-pc-display-horizontal"></i> Computadora</a></li>
-          </ul>
+        <li> <a class="dropdown-item" href="<?= base_url()?>horarios/box" style="background-color: white;"> Box</a>
+          
         </li>
+        
       </ul>
     </li>
 </div>

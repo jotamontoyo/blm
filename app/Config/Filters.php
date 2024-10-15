@@ -85,6 +85,11 @@ class Filters extends BaseFilters
                     '/', 
                     'solicitudes/crear',
                     'formularios/solicitud-afiliacion',
+                    'horarios/blume',
+                    'horarios/box',
+
+
+
                     'instrucciones/direccion-mision-vision',
                     'instrucciones/reglamento',
                     'instrucciones/metodologia',

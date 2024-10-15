@@ -41,7 +41,7 @@
   </div>
 
   <div class="row">
-    <h1 class="centrado display-4"><a href="<?= base_url(); ?>"><b>GIMNASIO BLUME <img class="img_logo_rotulos" src="<?= base_url(); ?>public/img/logos/logoPLN.jpg" alt=""></b></a></h1>
+    <h1 class="centrado display-4"><a href="<?= base_url(); ?>"><b>GIMNASIO BLUME <img class="img_logo_rotulos" src="<?= base_url(); ?>public/img/logos/logo-blm.png" alt=""></b></a></h1>
   </div>
 
 

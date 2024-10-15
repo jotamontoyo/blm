@@ -7,6 +7,49 @@
   <div class="img_backg1">
 
 
+  <style>
+    .columna-izda {
+      position: absolute;
+      top: 35%;
+      bottom: 40%;
+      left: 5%;
+    }
+
+    .columna-izda img {
+      width: 100%;
+    }
+
+    .columna-dcha {
+      position: absolute;
+      top: 20px;
+      bottom: 20px;
+      right: 5%;
+
+      width: 60px;
+      /* background-image: url('public/img/fondos/templo.png'); */
+      background-color: #DF0101;
+    }
+
+  </style>
+
+
+
+
+
+
+    <div class="columna-izda sombra">
+      <img src="<?= base_url(); ?>public/img/logos/logo-thai.jpeg" alt="">
+    </div>
+
+    <div class="columna-dcha sombra">
+
+    </div>
+
+
+
+    
+
+
 
   
 
@@ -45,7 +88,7 @@
 
 
     <div class="row">
-      <h1 class="centrado display-4 titulo-index"><b>GIMNASIO BLUME <img class="img_logo_rotulos" src="public/img/logos/logoPLN.jpg" alt=""></b></h1>
+      <h1 class="centrado display-4 titulo-index"><b>GIMNASIO BLUME <img class="img_logo_rotulos" src="public/img/logos/logo-blm.png" alt=""></b></h1>
     </div>
 
 
@@ -84,8 +127,8 @@
       </div>
 
       <div class="col-sm-8 centrado">
-        <div><img src="public/img/logos/logoPLN.jpg" class="img_logo_seccion1" alt=""></div>
-        <a href="formularios/solicitud-afiliacion" type="button" class="btn btn-lg boton-bajo-logo"><i class="bi bi-person-plus-fill"></i>  &nbsp;A f í l i a t e</a>
+        <div><img src="public/img/logos/logo-blm2.png" class="img_logo_seccion1" alt=""></div>
+        <a href="formularios/solicitud-afiliacion" type="button" class="btn btn-lg boton-bajo-logo"><i class="bi bi-person-plus-fill"></i>  &nbsp;Entrenar</a>
       </div>
 
 
@@ -95,11 +138,13 @@
   </div>
   
 
-
+  
 
 
 
   <div class="img_backg2">
+
+  
 
     <!-- por que afiliarse 2º baner -->
     <div class="container px-4 py-5" id="hanging-icons">
