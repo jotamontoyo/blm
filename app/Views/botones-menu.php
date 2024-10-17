@@ -14,10 +14,10 @@
       </ul>
     </li>
 </div>
-<div class="botones_menu"><a href="<?= base_url()?>instrucciones/direccion-mision-vision" class="btn btn-primary sombra">Dirección, misión y visión</a></div>
-<div class="botones_menu"><a href="<?= base_url()?>instrucciones/reglamento" class="btn btn-primary sombra">Reglamento</a></div>
-<div class="botones_menu"><a href="<?= base_url()?>instrucciones/metodologia" class="btn btn-primary sombra">Metodología</a></div>
-<div class="botones_menu"><a href="<?= base_url()?>instrucciones/empadronamiento" class="btn btn-primary sombra">Empadronamiento</a></div>
-<div class="botones_menu"><a href="<?= base_url()?>comunicaciones/videos" class="btn btn-primary sombra">Vídeos</a></div>
+<div class="botones_menu"><a href="<?= base_url()?>area/blume-sports" class="btn btn-primary sombra">Blume Sports</a></div>
+<div class="botones_menu"><a href="<?= base_url()?>area/nakmuay" class="btn btn-primary sombra">Nakmuay Club</a></div>
+<div class="botones_menu"><a href="<?= base_url()?>area/blume-box" class="btn btn-primary sombra">Blume Box</a></div>
+<div class="botones_menu"><a href="<?= base_url()?>rrhh/monitores" class="btn btn-primary sombra">Monitores</a></div>
+<div class="botones_menu"><a href="<?= base_url()?>rrhh/nosotros" class="btn btn-primary sombra">Nosotros</a></div>
 <div class="botones_menu"><a href="<?= base_url()?>comunicaciones/articulos" class="btn btn-primary sombra">Artículos</a></div>
-<div class="botones_menu"><a href="<?= base_url()?>formularios/solicitud-afiliacion" class="btn btn-primary sombra">Afiliación</a></div>
+<div class="botones_menu"><a href="<?= base_url()?>formularios/solicitud-afiliacion" class="btn btn-primary sombra">Contacto</a></div>

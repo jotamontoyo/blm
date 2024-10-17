@@ -291,6 +291,45 @@
 
 
 
+
+
+/******************************* botones_mapa *******************/
+.botones_map {
+
+    position: relative;
+    margin-bottom: 20px;
+    
+}
+
+.botones_map a {
+    width: 200px;
+    border: none;
+    border-radius: 0%;
+    background-color: #DF0101;
+    font-weight: bold;
+}
+
+.botones_map a:hover {
+    background-color: #B40404;
+    cursor: pointer;
+}
+
+/****************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /************** imagen de los instructivos ************************/
     .img-doc-instrucciones {
         margin-right: 70%;
