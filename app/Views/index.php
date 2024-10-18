@@ -3,8 +3,12 @@
 <?= $this->section('contenido'); ?>
 
 
+
+
+
+
 <!-- 1ª seccion -->
-  <div class="img_backg1">
+  <div class="img_backg1" id="img_backg1">
 
      <div class="centrado">
       <div class="d-flex justify-content-between align-items-center">
@@ -71,67 +75,112 @@
     </div>
 
 
+
+    <script>
+    
+    /*var numImagen = 0;
+    var imagenes = [
+      'public/img/fondos/combate1.jpg',
+      'public/img/fondos/2024-10-14.jpg',
+    ]
+    setInterval(function(){
+      var imgActual = imagenes[numImagen];
+      $(".img_backg1").css("backgroundImage", "url(" + imgActual + ")");
+
+    
+      if(numImagen + 1 == imagenes.length){
+        numImagen = 0;
+      } else {
+        numImagen++;
+      }
+    
+    } ,3000);*/
+
+
+    </script>
+
+
   </div>
   
 
+  
+
 
   
 
+
+
+
+
+
 <!-- conocenos banner -->
-    <div class="my-5">
-      <div class="p-5 text-center">
-        <div class="container py-5">
-          <h1 class="text-body-emphasis">Conócenos</h1>
-          <p class="col-lg-8 mx-auto lead">
-            Somos un centro deportivo de alta calidad con espacios dedicados al fitness y la preparación física. Contamos con un personal preparado para guiarte en cada paso de tu proceso, siempre rodeado de un ambiente agradable y familiar. Prepárate para vivir la experiencia blume.
-          </p>
+  <div class="container-fluid banner px-4 py-5 ">
+    <div class="row flex-lg-row-reverse align-items-center py-5 shadow-lg">
+      <div class="col-12 col-sm-8 col-lg-6 text-center">
+        <video src="<?= base_url(); ?>public/videos/jorge_esgtrada.mp4" autoplay controls></video>
+      </div>
+      <div class="col-lg-6">
+        <h3 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Conócenos</h3>
+        <p class="lead">Somos un centro deportivo de alta calidad con espacios dedicados al fitness y la preparación física. Contamos con un personal preparado para guiarte en cada paso de tu proceso, siempre rodeado de un ambiente agradable y familiar. Prepárate para vivir la experiencia blume.</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
+          <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
         </div>
       </div>
     </div>
+  </div>
+
+
 
 
 
 
 <!-- areas -->
-  <div class="container px-4" id="custom-cards">
-
-    <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4">
-
-      <div class="col">
-        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('<?= base_url(); ?>public/img/fondos/fachada.jpg'); background-size: cover; background-position: center;">
-          <div class="d-flex flex-column h-100 p-5 pb-3 text-black text-shadow-1">
-            <h6 class="fw-bold centrado">Blume Sports</h6>
-            <p>
-              Nuestra sala fitness se caracteriza por brindar un espacio agradable y completo para tus entreno; además podrás ver como en nuestras actividades grupales tus compañeros de entreno y monitor, no permitirán que nadie quede atrás. ¡A darlo todo!
-            </p>
+  <div class="container text-secondary px-4 py-5 text-center">
+    <div class="py-5">
+      <h1 class="display-5 fw-bold">Nuestras áreas</h1>
+      <div class="mx-auto">
+        <p class="fs-5 mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
+        <div class="container px-4" id="custom-cards">
+          <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4">
+            
+            <div class="col">
+              <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('<?= base_url(); ?>public/img/fondos/fachada.jpg'); background-size: cover; background-position: center;">
+                <div class="d-flex flex-column h-100 p-5 pb-3 text-black text-shadow-1">
+                  <h6 class="fw-bold centrado">Blume Sports</h6>
+                  <p>
+                    Nuestra sala fitness se caracteriza por brindar un espacio agradable y completo para tus entreno; además podrás ver como en nuestras actividades grupales tus compañeros de entreno y monitor, no permitirán que nadie quede atrás. ¡A darlo todo!
+                  </p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col">
+              <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('<?= base_url(); ?>public/img/fondos/fachada.jpg'); background-size: cover; background-position: center;">
+                <div class="d-flex flex-column h-100 p-5 pb-3 text-black text-shadow-1">
+                  <h6 class="fw-bold centrado">Blume Sports</h6>
+                  <p>
+                    Nuestra sala fitness se caracteriza por brindar un espacio agradable y completo para tus entreno; además podrás ver como en nuestras actividades grupales tus compañeros de entreno y monitor, no permitirán que nadie quede atrás. ¡A darlo todo!
+                  </p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col">
+              <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('<?= base_url(); ?>public/img/fondos/combate1.jpg'); background-size: cover; background-position: center;">
+                <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                  <h6 class="fw-bold centrado">Nakmuay Thai</h6>
+                  <p>
+                    Nuestra sala fitness se caracteriza por brindar un espacio agradable y completo para tus entreno; además podrás ver como en nuestras actividades grupales tus compañeros de entreno y monitor, no permitirán que nadie quede atrás. ¡A darlo todo!
+                  </p>
+                </div>
+              </div>
+            </div>
+          
           </div>
         </div>
       </div>
-
-      <div class="col">
-        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('<?= base_url(); ?>public/img/fondos/fachada.jpg'); background-size: cover; background-position: center;">
-          <div class="d-flex flex-column h-100 p-5 pb-3 text-black text-shadow-1">
-            <h6 class="fw-bold centrado">Blume Sports</h6>
-            <p>
-              Nuestra sala fitness se caracteriza por brindar un espacio agradable y completo para tus entreno; además podrás ver como en nuestras actividades grupales tus compañeros de entreno y monitor, no permitirán que nadie quede atrás. ¡A darlo todo!
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col">
-        <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('<?= base_url(); ?>public/img/fondos/combate1.jpg'); background-size: cover; background-position: center;">
-          <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-            <h6 class="fw-bold centrado">Nakmuay Thai</h6>
-            <p>
-              Nuestra sala fitness se caracteriza por brindar un espacio agradable y completo para tus entreno; además podrás ver como en nuestras actividades grupales tus compañeros de entreno y monitor, no permitirán que nadie quede atrás. ¡A darlo todo!
-            </p>
-          </div>
-        </div>
-      </div>
-
     </div>
-
   </div>
 
 
@@ -140,8 +189,8 @@
 
 <!-- actividades -->
   <div class="container px-4 py-5" id="icon-grid">
-    <br><br><br>
-    <h2 class="pb-2 border-bottom">Actividades</h2>
+    
+    <h2 class="pb-2 border-bottom text-center">Actividades</h2>
 
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 g-4 py-5">
       <div class="col d-flex align-items-start">
@@ -209,23 +258,20 @@
 
   
 <!-- google map -->
-  <div class="container px-4 py-5">
-    
-    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-      <div class="col-10 col-sm-8 col-lg-6" id="map" >
+  <div class="container-fluid banner px-4 py-5 ">
+    <div class="row flex-lg-row-reverse align-items-center py-5 shadow-lg">
+      <div class="col-lg-6" id="map" >
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4421.843968607195!2d-0.5227532328131046!3d38.401818481525765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6231548fc44a6b%3A0x2fa78335cdf9206e!2sBlume%20Sports%20Center!5e0!3m2!1ses!2ses!4v1729102247556!5m2!1ses!2ses" width="100%" height="400"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
       <div class="col-lg-6">
         <h3 class="display-6 fw-bold text-body-emphasis lh-1 mb-3">Encuéntranos aquí</h3>
         <p class="lead">Elige el centro que mejor se adapte a tus necesidades.</p>
-        
           <div class="botones_map">
             <a onclick="map_blume()" type="button" class="btn btn-primary sombra">Blume Sports Center</a>
           </div>
           <div class="botones_map">
             <a onclick="map_box()" type="button" class="btn btn-primary sombra">Blume Box</a>
           </div>
-            
       </div>
     </div>
   
@@ -240,6 +286,7 @@
 
   </div>
 
+  <br><br>
   
 
 

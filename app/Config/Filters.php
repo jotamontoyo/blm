@@ -90,14 +90,14 @@ class Filters extends BaseFilters
 
 
 
-                    'instrucciones/direccion-mision-vision',
+                    /* 'instrucciones/direccion-mision-vision',
                     'instrucciones/reglamento',
                     'instrucciones/metodologia',
                     'instrucciones/empadronamiento',
                     'instrucciones/sin-cedula-movil',
                     'instrucciones/sin-cedula-computadora',
                     'instrucciones/con-cedula-movil',
-                    'instrucciones/con-cedula-computadora',
+                    'instrucciones/con-cedula-computadora', */
                     'comunicaciones/videos',
                     'comunicaciones/articulos',
                     'login*',
