@@ -26,6 +26,7 @@
     <link href="<?= base_url() ?>public/css/estilo.css" rel="stylesheet">
     <link href="<?= base_url() ?>public/css/navbar.css" rel="stylesheet">
     <link href="<?= base_url() ?>public/css/botones_redes.css" rel="stylesheet">
+    <link href="<?= base_url() ?>public/css/app.css" rel="stylesheet">
 
     <link href="<?= base_url() ?>public/img/logos/logo-blm.png" rel="icon" type="image/x-icon">
 

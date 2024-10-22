@@ -91,148 +91,18 @@ class Home extends BaseController
 
 
 
-
-
     /**
      * Return an array of resource objects, themselves in array format.
      *
      * @return ResponseInterface
      */
-    public function direccion_mision_vision()
+    public function area_blume_sports()
     {
         $data = [
-            'titulo'        => 'Partido Liberal de Nicaragua'
+            'titulo'        => 'Blume Sports'
         ];
-        return view('instrucciones/direccion-mision-vision', $data);
+        return view('area/blume-sports', $data);
     }
-
-
-
-
-
-
-    /**
-     * Return an array of resource objects, themselves in array format.
-     *
-     * @return ResponseInterface
-     */
-    public function reglamento()
-    {
-        $data = [
-            'titulo'        => 'Partido Liberal de Nicaragua'
-        ];
-        return view('instrucciones/reglamento', $data);
-    }
-
-
-
-
-
-
-    /**
-     * Return an array of resource objects, themselves in array format.
-     *
-     * @return ResponseInterface
-     */
-    public function metodologia()
-    {
-        $data = [
-            'titulo'        => 'Partido Liberal de Nicaragua'
-        ];
-        return view('instrucciones/metodologia', $data);
-    }
-
-
-
-
-
-    /**
-     * Return an array of resource objects, themselves in array format.
-     *
-     * @return ResponseInterface
-     */
-    public function empadronamiento()
-    {
-        $data = [
-            'titulo'        => 'Partido Liberal de Nicaragua'
-        ];
-        return view('instrucciones/empadronamiento', $data);
-    }
-
-
-
-
-
-
-
-
-    /**
-     * Return an array of resource objects, themselves in array format.
-     *
-     * @return ResponseInterface
-     */
-    public function con_cedula_movil()
-    {
-        $data = [
-            'titulo'        => 'Partido Liberal de Nicaragua'
-        ];
-        return view('instrucciones/con-cedula-movil', $data);
-    }
-
-
-
-
-
-    /**
-     * Return an array of resource objects, themselves in array format.
-     *
-     * @return ResponseInterface
-     */
-    public function con_cedula_computadora()
-    {
-        $data = [
-            'titulo'        => 'Partido Liberal de Nicaragua'
-        ];
-        return view('instrucciones/con-cedula-computadora', $data);
-    }
-
-
-
-
-
-    /**
-     * Return an array of resource objects, themselves in array format.
-     *
-     * @return ResponseInterface
-     */
-    public function sin_cedula_movil()
-    {
-        $data = [
-            'titulo'        => 'Partido Liberal de Nicaragua'
-        ];
-        return view('instrucciones/sin-cedula-movil', $data);
-    }
-
-
-
-
-
-
-
-    /**
-     * Return an array of resource objects, themselves in array format.
-     *
-     * @return ResponseInterface
-     */
-    public function sin_cedula_computadora()
-    {
-        $data = [
-            'titulo'        => 'Partido Liberal de Nicaragua'
-        ];
-        return view('instrucciones/sin-cedula-computadora', $data);
-    }
-
-
 
 
 

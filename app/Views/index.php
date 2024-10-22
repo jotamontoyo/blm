@@ -8,102 +8,109 @@
 
 
 <!-- 1ª seccion -->
-  <div class="img_backg1" id="img_backg1">
-
-     <div class="centrado">
-      <div class="d-flex justify-content-between align-items-center">
-        <ul class="redes">
-          <li class="icon facebook">
-              <span class="tooltip">Facebook</span>
-              <span><i class="fab fa-facebook-f"></i></span>
-          </li>
-          <li class="icon twitter">
-              <span class="tooltip">Twitter</span>
-              <span><i class="fa-brands fa-x-twitter"></i></span>
-          </li>
-          <li class="icon instagram">
-              <span class="tooltip">Instagram</span>
-              <span><i class="fab fa-instagram"></i></span>
-          </li>
-          <li class="icon linkedin">
-              <span class="tooltip">Linkedin</span>
-              <span><i class="fab fa-linkedin"></i></span>
-          </li>
-          <li class="icon pinterest">
-              <span class="tooltip">Youtube</span>
-              <span><i class="fab fa-youtube"></i></span>
-          </li>
-          <li class="icon telegram">
-              <span class="tooltip">Telegram</span>
-              <span><i class="fab fa-telegram"></i></span>
-          </li>
-        </ul>
-      </div>
-    </div>
-
-
-
-    <div class="row">
-      <h1 class="centrado display-4 titulo-index"><b> BLUME SPORTS CENTER <img class="img_logo_rotulos" src="public/img/logos/logo-blm.png" alt=""></b></h1>
-    </div>
-
-    
-    
-    <div class="row">
-
-      <div class="col-sm-4">
-        <nav class="navbar navbar-expand-md navbar-dark centrado">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span> Menú
-          </button>
-          <div class="collapse navbar-collapse navbar-menu" id="navbarCollapse">
-            <ul class="navbar-nav">
-              <div>
-                <?= $this->include('botones-menu'); ?>
-              </div>
-            </ul>
-          </div>
-        </nav>
-      </div>
-
-      <div class="col-sm-8 centrado">
-        <div><img src="public/img/logos/logo-blm2.png" class="img_logo_seccion1" alt=""></div>
-        <a href="formularios/solicitud-afiliacion" type="button" class="btn btn-lg boton-bajo-logo"><i class="bi bi-person-plus-fill"></i>  &nbsp;Entrenar</a>
-      </div>
-
-
-    </div>
-
-
-
-    <script>
-    
-    /*var numImagen = 0;
-    var imagenes = [
-      'public/img/fondos/combate1.jpg',
-      'public/img/fondos/2024-10-14.jpg',
-    ]
-    setInterval(function(){
-      var imgActual = imagenes[numImagen];
-      $(".img_backg1").css("backgroundImage", "url(" + imgActual + ")");
-
-    
-      if(numImagen + 1 == imagenes.length){
-        numImagen = 0;
-      } else {
-        numImagen++;
-      }
-    
-    } ,3000);*/
-
-
-    </script>
-
-
-  </div>
-  
 
   
+
+                <div class="container-fluid">
+
+                  <div style="position: relative; z-index: 10000;">
+
+                    <div class="text-center">
+
+                      <div class="d-flex justify-content-between align-items-center">
+                        <ul class="redes">
+                          <li class="icon facebook">
+                              <span class="tooltip">Facebook</span>
+                              <span><i class="fab fa-facebook-f"></i></span>
+                          </li>
+                          <li class="icon twitter">
+                              <span class="tooltip">Twitter</span>
+                              <span><i class="fa-brands fa-x-twitter"></i></span>
+                          </li>
+                          <li class="icon instagram">
+                              <span class="tooltip">Instagram</span>
+                              <span><i class="fab fa-instagram"></i></span>
+                          </li>
+                          <li class="icon linkedin">
+                              <span class="tooltip">Linkedin</span>
+                              <span><i class="fab fa-linkedin"></i></span>
+                          </li>
+                          <li class="icon pinterest">
+                              <span class="tooltip">Youtube</span>
+                              <span><i class="fab fa-youtube"></i></span>
+                          </li>
+                          <li class="icon telegram">
+                              <span class="tooltip">Telegram</span>
+                              <span><i class="fab fa-telegram"></i></span>
+                          </li>
+                        </ul>
+                      </div>
+
+
+
+                      <div class="row">
+                        <h1 class="centrado display-4 titulo-index"><b> BLUME SPORTS CENTER <img class="img_logo_rotulos" src="public/img/logos/logo-blm.png" alt=""></b></h1>
+                      </div>
+
+                    </div>
+
+
+                    <div class="row">
+
+                    <div class="col-sm-4">
+                      <nav class="navbar navbar-expand-md navbar-dark centrado">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span> Menú
+                        </button>
+                        <div class="collapse navbar-collapse navbar-menu" id="navbarCollapse">
+                          <ul class="navbar-nav">
+                            <div>
+                              <?= $this->include('botones-menu'); ?>
+                            </div>
+                          </ul>
+                        </div>
+                      </nav>
+                    </div>
+
+                    <div class="col-sm-8 centrado">
+                      <div><img src="public/img/logos/logo-blm2.png" class="img_logo_seccion1" alt=""></div>
+                      <a href="formularios/solicitud-afiliacion" type="button" class="btn btn-lg boton-bajo-logo"><i class="bi bi-person-plus-fill"></i>  &nbsp;Entrenar</a>
+                    </div>
+
+                    </div>
+
+
+                  </div>
+
+                
+
+
+
+                  
+
+                  <div id="back-carousel" class="carousel slide carousel-fade back-carousel" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active img-fluid">
+                        <img src="<?= base_url(); ?>public/img/fondos/combate1.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item img-fluid">
+                        <img src="<?= base_url(); ?>public/img/fondos/combate2.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item img-fluid">
+                        <img src="<?= base_url(); ?>public/img/fondos/2024-10-14.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item img-fluid">
+                        <img src="<?= base_url(); ?>public/img/area/blume/abril-17-sesion-leone-gym-blume-3-3.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                  </div>
+
+
+
+                </div>
+  
+
+
 
 
   
@@ -114,10 +121,10 @@
 
 
 <!-- conocenos banner -->
-  <div class="container-fluid banner px-4 py-5 ">
+  <div class="container-fluid banner px-4 py-5">
     <div class="row flex-lg-row-reverse align-items-center py-5 shadow-lg">
       <div class="col-12 col-sm-8 col-lg-6 text-center">
-        <video src="<?= base_url(); ?>public/videos/jorge_esgtrada.mp4" autoplay controls></video>
+        <video src="<?= base_url(); ?>public/videos/jorge_esgtrada.mp4" autoplay controls style="max-height: 500px" width="100%"></video>
       </div>
       <div class="col-lg-6">
         <h3 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Conócenos</h3>
@@ -145,14 +152,16 @@
           <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4">
             
             <div class="col">
-              <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('<?= base_url(); ?>public/img/fondos/fachada.jpg'); background-size: cover; background-position: center;">
-                <div class="d-flex flex-column h-100 p-5 pb-3 text-black text-shadow-1">
-                  <h6 class="fw-bold centrado">Blume Sports</h6>
-                  <p>
-                    Nuestra sala fitness se caracteriza por brindar un espacio agradable y completo para tus entreno; además podrás ver como en nuestras actividades grupales tus compañeros de entreno y monitor, no permitirán que nadie quede atrás. ¡A darlo todo!
-                  </p>
+              <a href="<?= base_url(); ?>area/blume-sports">
+                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('<?= base_url(); ?>public/img/fondos/fachada.jpg'); background-size: cover; background-position: center;">
+                  <div class="d-flex flex-column h-100 p-5 pb-3 text-black text-shadow-1">
+                    <h6 class="fw-bold centrado">Blume Sports</h6>
+                    <p>
+                      Nuestra sala fitness se caracteriza por brindar un espacio agradable y completo para tus entreno; además podrás ver como en nuestras actividades grupales tus compañeros de entreno y monitor, no permitirán que nadie quede atrás. ¡A darlo todo!
+                    </p>
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
             
             <div class="col">

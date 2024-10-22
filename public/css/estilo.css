@@ -84,7 +84,7 @@
     @keyframes fadeIn {   0% { opacity: 0; }   100% { opacity: 1; } }
 
 
-    .img_backg1 {
+    /*.img_backg1 {
         padding-top: 2%;
         height: 100vh;
         background-position: center center;
@@ -109,7 +109,9 @@
         background-color: white;
         opacity: 0.8;
         
-    }
+    }/*
+
+    
 
 
 /************************************************************/
@@ -121,9 +123,44 @@
 
 
 
+/*****************carrusel 1ª seccion*******************************************/
+
+    .back-carousel {
+        position: absolute;
+        width: 100%;
+        margin-bottom: 500px;
+        top: 0;
+        left: 0;
+
+      }
+
+      .back-carousel img {
+        position: relative;
+
+        
+        max-height: 100vh;
+      }
+
+/**********************************************************************************/
 
 
-/*********** banner **************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*********** marco-banner **************************/
+    .banner {
+        margin-top: 120px;
+    }
     .banner .row {
         margin: 50px;
         padding: 40px;
@@ -179,6 +216,7 @@
 
 
 
+
 /******************** estilos de la cabecera de todas la páginas *****************/
     .cabecera {
         margin-top: 0%;
@@ -189,7 +227,6 @@
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
-        background-image: url('../../public/img/fondos/manifestacion5.jpg'); 
         background-image: center;
         background-repeat: no-repeat;
         color: #DF0101;
@@ -204,6 +241,14 @@
 
 
 /**********************************************************************************/
+
+
+
+
+
+
+
+
 
 
 
@@ -614,11 +659,15 @@
 
 
     /*********** back-ground 1er banner **************************/
-    .img_backg1 {
-        padding-top: 10%;
-        height: auto;
-        min-height: 100vh;
 
+
+    .back-carousel {
+        width: 100%;
+    }
+    .back-carousel img  {
+        height: auto;
+        min-width: 700px;
+        min-height: 100vh;
     }
 
 
@@ -694,13 +743,15 @@
         border-radius: 5px;
     }
 
-    .carousel img {
-        max-width: 50%;
+
+
+
+
+
+/*********** marco-banner **************************/
+    .banner {
+        margin-top: 50px;
     }
-
-
-
-/*********** banner  **************************/
     .banner .row {
         margin: 5px;
         padding: 5px;

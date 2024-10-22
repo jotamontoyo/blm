@@ -24,6 +24,9 @@ $routes->get('instrucciones/sin-cedula-movil',                                  
 $routes->get('instrucciones/sin-cedula-computadora',                            'Home::sin_cedula_computadora');*/
 
 
+$routes->get('area/blume-sports',                            'Home::area_blume_sports');
+
+
 $routes->get('comunicaciones/videos',                           'Home::videos');
 $routes->get('comunicaciones/articulos',                        'Home::articulos');
 
