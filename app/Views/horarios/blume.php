@@ -5,7 +5,7 @@
 
 
 
-    <div class="cabecera" style="background-image: url('<?= base_url(); ?>public/img/area/blume/abril-17-sesion-leone-gym-blume-3-3.jpg')">
+    <div class="cabecera" style="background-image: url('<?= base_url(); ?>public/img/fondos/blume/area-blume.jpg')">
 
     
       <?= $this->include('botones-redes'); ?>

@@ -99,6 +99,10 @@ class Filters extends BaseFilters
                     'instrucciones/con-cedula-movil',
                     'instrucciones/con-cedula-computadora', */
                     'area/blume-sports',
+                    'area/blume-box',
+                    'area/muay-thai',
+
+                    'rrhh/monitores',
                     
 
                     'comunicaciones/videos',

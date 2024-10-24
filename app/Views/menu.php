@@ -133,7 +133,7 @@
           <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasArbol" aria-labelledby="offcanvasArbolLabel">
 
             <div class="offcanvas-header">
-              <h4 class="offcanvas-title" id="offcanvasArbolLabel">Partido Liberal de Nicaragua <img class="img_logo_rotulos" src="<?= base_url(); ?>public/img/logos/logoPLN.jpg" alt=""></b></h4>
+              <h4 class="offcanvas-title" id="offcanvasArbolLabel">Partido Liberal de Nicaragua <img class="img_logo_rotulos" src="<?= base_url(); ?>public/img/logos/logo-blm.jpg" alt=""></b></h4>
               <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
 

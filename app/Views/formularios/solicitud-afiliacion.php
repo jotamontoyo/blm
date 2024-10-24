@@ -5,7 +5,14 @@
 
 
 
-<?= $this->include('cabecera'); ?> 
+<div class="cabecera" style="background-image: url('<?= base_url(); ?>public/img/fondos/box/box1.jpg')">
+
+    
+      <?= $this->include('botones-redes'); ?>
+        
+
+    </div>
+
 
 
 <br>

@@ -10,7 +10,7 @@
     </li>
 </div>
 <div class="botones_menu"><a href="<?= base_url(); ?>area/blume-sports" class="btn btn-primary sombra">Blume Sports</a></div>
-<div class="botones_menu"><a href="<?= base_url(); ?>area/nakmuay" class="btn btn-primary sombra">Nakmuay Club</a></div>
+<div class="botones_menu"><a href="<?= base_url(); ?>area/muay-thai" class="btn btn-primary sombra">Nakmuay Club</a></div>
 <div class="botones_menu"><a href="<?= base_url(); ?>area/blume-box" class="btn btn-primary sombra">Blume Box</a></div>
 <div class="botones_menu"><a href="<?= base_url(); ?>rrhh/monitores" class="btn btn-primary sombra">Monitores</a></div>
 <div class="botones_menu"><a href="<?= base_url(); ?>rrhh/nosotros" class="btn btn-primary sombra">Nosotros</a></div>

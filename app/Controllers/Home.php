@@ -111,6 +111,79 @@ class Home extends BaseController
 
 
 
+    
+
+
+
+    /**
+     * Return an array of resource objects, themselves in array format.
+     *
+     * @return ResponseInterface
+     */
+    public function area_blume_box()
+    {
+        $data = [
+            'titulo'        => 'Blume Box'
+        ];
+        return view('area/blume-box', $data);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /**
+     * Return an array of resource objects, themselves in array format.
+     *
+     * @return ResponseInterface
+     */
+    public function area_muay_thai()
+    {
+        $data = [
+            'titulo'        => 'Nakmuay'
+        ];
+        return view('area/muay-thai', $data);
+    }
+
+
+
+
+
+
+
+
+
+
+
+    /**
+     * Return an array of resource objects, themselves in array format.
+     *
+     * @return ResponseInterface
+     */
+    public function monitores()
+    {
+        $data = [
+            'titulo'        => 'Monitores'
+        ];
+        return view('rrhh/monitores', $data);
+    }
+
+
+
+
+
+
+
+
 
 
 
